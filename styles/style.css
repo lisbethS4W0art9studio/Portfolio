@@ -202,6 +202,10 @@ footer .contact-box p {
 
 footer .email-link {
   color: var(--heading-color);
+  background: var(--secondary-color);
+  border-radius: 60px;
+  font-size: 28px;
+  padding: 30px;
 }
 
 footer .email-link:hover {
@@ -209,8 +213,10 @@ footer .email-link:hover {
 }
 footer .fa-brands {
   color: var(--heading-color);
-  padding: 10px;
-  font-size: 18px;
+  background: var(--secondary-color);
+  border-radius: 60px;
+  padding: 30px 40px 30px;
+  font-size: 28px;
 }
 footer .fa-brands:hover {
   color: var(--secondary-branding-color);
@@ -218,6 +224,8 @@ footer .fa-brands:hover {
 }
 footer .soical-links a {
   color: var(--heading-color);
+  font-size: 28px;
+  margin-top: 20px;
   display: flex;
   transition: all 100ms ease-in-out;
 }
