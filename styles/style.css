@@ -33,6 +33,11 @@ h2 {
 h3 {
   color: var(--third-color);
 }
+
+h4 {
+  color: var(--primary-color);
+  font-size: 48px;
+}
 p {
   font-family: var(--default-font-family);
   font-size: 16px;
@@ -143,6 +148,12 @@ p {
   h2 {
     font-size: 42px;
   }
+  h4 {
+    font-size: 20px;
+  }
+  .btn {
+    font-size: 20px;
+  }
   .hero {
     padding: 80px 20px;
   }
@@ -173,29 +184,43 @@ p {
   padding: 70px 30px;
 }
 
-.fa-regular {
-  color: var(--heading-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.fa-solid {
-  color: var(--heading-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.fa-brands {
-  color: var(--heading-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.container-social {
-  padding: 30px;
-}
 footer {
   text-align: center;
   color: var(--p-secondary-color);
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  color: var(--heading-color);
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .fa-brands {
+  color: var(--heading-color);
+  padding: 10px;
+  font-size: 18px;
+}
+footer .fa-brands:hover {
+  color: var(--secondary-branding-color);
+  transition: all 100ms ease-in-out;
+}
+footer .soical-links a {
+  color: var(--heading-color);
+  display: flex;
+  transition: all 100ms ease-in-out;
+}
+footer .soical-links a:hover {
+  color: var(--secondary-branding-color);
 }
