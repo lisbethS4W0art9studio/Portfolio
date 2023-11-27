@@ -4,7 +4,7 @@
   --secondary-color: #f2f2f2;
   --primary-color: #84577c;
   --third-color: #d99052;
-  --p-color: #22577e;
+  --p-color: #3792d4;
   --p-secondary-color: #ffffff;
   --heading-color: #c65f63;
   --heading-font-family: "Open Sans", sans-serif;
@@ -14,6 +14,7 @@
 body {
   background: #333644;
 }
+
 h1 {
   color: var(--heading-color);
   font-family: var(--heading-font-family);
@@ -123,6 +124,17 @@ p {
   padding: 120px 60px;
 }
 
+.logo {
+  max-height: 40px;
+}
+.active {
+  color: var(--branding-color) !important;
+}
+
+.nav-item {
+  padding: 0 20px;
+  line-height: 14px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -134,7 +146,8 @@ p {
   .hero {
     padding: 80px 20px;
   }
-  .project-description {
+  .project-description,
+  .container-collection {
     padding: 0;
     text-align: center;
   }
